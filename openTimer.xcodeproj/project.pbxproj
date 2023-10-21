@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE660C402AE43B3C00CA273C /* openTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE660C3F2AE43B3C00CA273C /* openTimerApp.swift */; };
+		EE660C422AE43B3C00CA273C /* MainTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE660C412AE43B3C00CA273C /* MainTimerView.swift */; };
+		EE660C442AE43B3C00CA273C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE660C432AE43B3C00CA273C /* Item.swift */; };
+		EE660C462AE43B3E00CA273C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE660C452AE43B3E00CA273C /* Assets.xcassets */; };
+		EE660C492AE43B3E00CA273C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE660C482AE43B3E00CA273C /* Preview Assets.xcassets */; };
+		EE660C532AE43B3F00CA273C /* openTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE660C522AE43B3F00CA273C /* openTimerTests.swift */; };
+		EE660C5D2AE43B3F00CA273C /* openTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE660C5C2AE43B3F00CA273C /* openTimerUITests.swift */; };
+		EE660C5F2AE43B3F00CA273C /* openTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE660C5E2AE43B3F00CA273C /* openTimerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE660C4F2AE43B3F00CA273C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE660C342AE43B3C00CA273C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE660C3B2AE43B3C00CA273C;
+			remoteInfo = openTimer;
+		};
+		EE660C592AE43B3F00CA273C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE660C342AE43B3C00CA273C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE660C3B2AE43B3C00CA273C;
+			remoteInfo = openTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE660C3C2AE43B3C00CA273C /* openTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE660C3F2AE43B3C00CA273C /* openTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openTimerApp.swift; sourceTree = "<group>"; };
+		EE660C412AE43B3C00CA273C /* MainTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTimerView.swift; sourceTree = "<group>"; };
+		EE660C432AE43B3C00CA273C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		EE660C452AE43B3E00CA273C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE660C482AE43B3E00CA273C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE660C4E2AE43B3F00CA273C /* openTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE660C522AE43B3F00CA273C /* openTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openTimerTests.swift; sourceTree = "<group>"; };
+		EE660C582AE43B3F00CA273C /* openTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE660C5C2AE43B3F00CA273C /* openTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openTimerUITests.swift; sourceTree = "<group>"; };
+		EE660C5E2AE43B3F00CA273C /* openTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE660C392AE43B3C00CA273C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE660C4B2AE43B3F00CA273C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE660C552AE43B3F00CA273C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE660C332AE43B3C00CA273C = {
+			isa = PBXGroup;
+			children = (
+				EE660C3E2AE43B3C00CA273C /* openTimer */,
+				EE660C512AE43B3F00CA273C /* openTimerTests */,
+				EE660C5B2AE43B3F00CA273C /* openTimerUITests */,
+				EE660C3D2AE43B3C00CA273C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE660C3D2AE43B3C00CA273C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE660C3C2AE43B3C00CA273C /* openTimer.app */,
+				EE660C4E2AE43B3F00CA273C /* openTimerTests.xctest */,
+				EE660C582AE43B3F00CA273C /* openTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE660C3E2AE43B3C00CA273C /* openTimer */ = {
+			isa = PBXGroup;
+			children = (
+				EE660C3F2AE43B3C00CA273C /* openTimerApp.swift */,
+				EE660C412AE43B3C00CA273C /* MainTimerView.swift */,
+				EE660C432AE43B3C00CA273C /* Item.swift */,
+				EE660C452AE43B3E00CA273C /* Assets.xcassets */,
+				EE660C472AE43B3E00CA273C /* Preview Content */,
+			);
+			path = openTimer;
+			sourceTree = "<group>";
+		};
+		EE660C472AE43B3E00CA273C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE660C482AE43B3E00CA273C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE660C512AE43B3F00CA273C /* openTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE660C522AE43B3F00CA273C /* openTimerTests.swift */,
+			);
+			path = openTimerTests;
+			sourceTree = "<group>";
+		};
+		EE660C5B2AE43B3F00CA273C /* openTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE660C5C2AE43B3F00CA273C /* openTimerUITests.swift */,
+				EE660C5E2AE43B3F00CA273C /* openTimerUITestsLaunchTests.swift */,
+			);
+			path = openTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE660C3B2AE43B3C00CA273C /* openTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE660C622AE43B3F00CA273C /* Build configuration list for PBXNativeTarget "openTimer" */;
+			buildPhases = (
+				EE660C382AE43B3C00CA273C /* Sources */,
+				EE660C392AE43B3C00CA273C /* Frameworks */,
+				EE660C3A2AE43B3C00CA273C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = openTimer;
+			productName = openTimer;
+			productReference = EE660C3C2AE43B3C00CA273C /* openTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE660C4D2AE43B3F00CA273C /* openTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE660C652AE43B3F00CA273C /* Build configuration list for PBXNativeTarget "openTimerTests" */;
+			buildPhases = (
+				EE660C4A2AE43B3F00CA273C /* Sources */,
+				EE660C4B2AE43B3F00CA273C /* Frameworks */,
+				EE660C4C2AE43B3F00CA273C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE660C502AE43B3F00CA273C /* PBXTargetDependency */,
+			);
+			name = openTimerTests;
+			productName = openTimerTests;
+			productReference = EE660C4E2AE43B3F00CA273C /* openTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE660C572AE43B3F00CA273C /* openTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE660C682AE43B3F00CA273C /* Build configuration list for PBXNativeTarget "openTimerUITests" */;
+			buildPhases = (
+				EE660C542AE43B3F00CA273C /* Sources */,
+				EE660C552AE43B3F00CA273C /* Frameworks */,
+				EE660C562AE43B3F00CA273C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE660C5A2AE43B3F00CA273C /* PBXTargetDependency */,
+			);
+			name = openTimerUITests;
+			productName = openTimerUITests;
+			productReference = EE660C582AE43B3F00CA273C /* openTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE660C342AE43B3C00CA273C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EE660C3B2AE43B3C00CA273C = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					EE660C4D2AE43B3F00CA273C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = EE660C3B2AE43B3C00CA273C;
+					};
+					EE660C572AE43B3F00CA273C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = EE660C3B2AE43B3C00CA273C;
+					};
+				};
+			};
+			buildConfigurationList = EE660C372AE43B3C00CA273C /* Build configuration list for PBXProject "openTimer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE660C332AE43B3C00CA273C;
+			productRefGroup = EE660C3D2AE43B3C00CA273C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE660C3B2AE43B3C00CA273C /* openTimer */,
+				EE660C4D2AE43B3F00CA273C /* openTimerTests */,
+				EE660C572AE43B3F00CA273C /* openTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE660C3A2AE43B3C00CA273C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE660C492AE43B3E00CA273C /* Preview Assets.xcassets in Resources */,
+				EE660C462AE43B3E00CA273C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE660C4C2AE43B3F00CA273C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE660C562AE43B3F00CA273C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE660C382AE43B3C00CA273C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE660C422AE43B3C00CA273C /* MainTimerView.swift in Sources */,
+				EE660C442AE43B3C00CA273C /* Item.swift in Sources */,
+				EE660C402AE43B3C00CA273C /* openTimerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE660C4A2AE43B3F00CA273C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE660C532AE43B3F00CA273C /* openTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE660C542AE43B3F00CA273C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE660C5F2AE43B3F00CA273C /* openTimerUITestsLaunchTests.swift in Sources */,
+				EE660C5D2AE43B3F00CA273C /* openTimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE660C502AE43B3F00CA273C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE660C3B2AE43B3C00CA273C /* openTimer */;
+			targetProxy = EE660C4F2AE43B3F00CA273C /* PBXContainerItemProxy */;
+		};
+		EE660C5A2AE43B3F00CA273C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE660C3B2AE43B3C00CA273C /* openTimer */;
+			targetProxy = EE660C592AE43B3F00CA273C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EE660C602AE43B3F00CA273C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE660C612AE43B3F00CA273C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE660C632AE43B3F00CA273C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"openTimer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JuanRuizVilla.openTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE660C642AE43B3F00CA273C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"openTimer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JuanRuizVilla.openTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE660C662AE43B3F00CA273C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JuanRuizVilla.openTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/openTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/openTimer";
+			};
+			name = Debug;
+		};
+		EE660C672AE43B3F00CA273C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JuanRuizVilla.openTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/openTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/openTimer";
+			};
+			name = Release;
+		};
+		EE660C692AE43B3F00CA273C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JuanRuizVilla.openTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = openTimer;
+			};
+			name = Debug;
+		};
+		EE660C6A2AE43B3F00CA273C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JuanRuizVilla.openTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = openTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE660C372AE43B3C00CA273C /* Build configuration list for PBXProject "openTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE660C602AE43B3F00CA273C /* Debug */,
+				EE660C612AE43B3F00CA273C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE660C622AE43B3F00CA273C /* Build configuration list for PBXNativeTarget "openTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE660C632AE43B3F00CA273C /* Debug */,
+				EE660C642AE43B3F00CA273C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE660C652AE43B3F00CA273C /* Build configuration list for PBXNativeTarget "openTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE660C662AE43B3F00CA273C /* Debug */,
+				EE660C672AE43B3F00CA273C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE660C682AE43B3F00CA273C /* Build configuration list for PBXNativeTarget "openTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE660C692AE43B3F00CA273C /* Debug */,
+				EE660C6A2AE43B3F00CA273C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE660C342AE43B3C00CA273C /* Project object */;
+}
