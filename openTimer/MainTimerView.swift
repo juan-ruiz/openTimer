@@ -13,31 +13,12 @@ struct MainTimerView: View {
     @Query private var items: [Item]
 
     var body: some View {
-        NavigationSplitView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
-                    }
-                }
-                .onDelete(perform: deleteItems)
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addTimer) {
-                        Label("Add T1mer", systemImage: "plus")
-                    }
-                }
-            }
-        } detail: {
-            Text("Select a timer")
+        TabView {
+            IntervalTimerView()
+            ProgramTimerView()
         }
     }
+    
     
     //Refactor for model
     private func addTimer() {
@@ -55,6 +36,35 @@ struct MainTimerView: View {
         }
     }
 }
+
+struct IntervalTimerView: View {
+    var body: some View {
+        NavigationView {
+            // Your code for the main alarm view goes here
+            Text("Interval Timer View")
+                .navigationBarTitle("Interval Timer", displayMode: .inline)
+                .navigationBarItems(trailing: Button(action: {
+                    // Action for adding a new alarm
+                }) {
+                    Image(systemName: "plus")
+                })
+        }
+        .tabItem {
+            Label("Interval", systemImage: "alarm")
+        }
+    }
+}
+
+
+struct ProgramTimerView: View {
+    var body: some View {
+        Text("Program Timer View")
+            .tabItem {
+                Label("Program", systemImage: "ellipsis.circle")
+            }
+    }
+}
+
 
 #Preview {
     MainTimerView()
