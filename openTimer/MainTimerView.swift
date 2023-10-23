@@ -30,7 +30,7 @@ struct MainTimerView: View {
                 }
                 ToolbarItem {
                     Button(action: addTimer) {
-                        Label("Add Timer", systemImage: "plus")
+                        Label("Add T1mer", systemImage: "plus")
                     }
                 }
             }
