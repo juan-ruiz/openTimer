@@ -8,11 +8,20 @@
 import Foundation
 import SwiftData
 
+
 @Model
-final class Routine {
-    var timestamp: Date
+final class Routine: Identifiable {
+    var creationDate: Date
+    var countdowns: [Countdown]
+    var id = UUID()
+    var name: String
     
-    init(timestamp: Date) {
-        self.timestamp = timestamp
+    
+    init(name: String) {
+        self.creationDate = Date()
+        self.countdowns = []
+        self.name = name
     }
 }
+
+

@@ -10,7 +10,7 @@ import SwiftData
 
 struct MainTimerView: View {
     @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
+    @Query private var items: [Routine]
 
     var body: some View {
         TabView {
@@ -21,12 +21,7 @@ struct MainTimerView: View {
     
     
     //Refactor for model
-    private func addTimer() {
-        withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
-        }
-    }
+
 
     private func deleteItems(offsets: IndexSet) {
         withAnimation {
@@ -68,5 +63,18 @@ struct ProgramTimerView: View {
 
 #Preview {
     MainTimerView()
-        .modelContainer(for: Item.self, inMemory: true)
+        .modelContainer(for: Routine.self, inMemory: true)
+}
+
+
+class RoutineViewModel: ObservableObject {
+    @Published var routines: [Routine] = []
+    
+    func addCountdown(to routine: Routine, countdown: Countdown) {
+        if let index = routines.firstIndex(where: { $0.id == routine.id }) {
+            var updatedRoutine = routine
+            updatedRoutine.countdowns.append(countdown)
+            routines[index] = updatedRoutine
+        }
+    }
 }
